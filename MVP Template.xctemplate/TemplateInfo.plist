@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
+	<key>Description</key>
+	<string>An empty Swift file.</string>
+	<key>Summary</key>
+	<string>An empty Swift file</string>
+	<key>SortOrder</key>
+	<string>30</string>
+	<key>AllowedTypes</key>
+	<array>
+		<string>public.swift-source</string>
+	</array>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>static</string>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Default</key>
+			<string>___VARIABLE_moduleName___</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>text</string>
+			<key>Required</key>
+			<true/>
+			<key>Not Presisted</key>
+			<true/>
+			<key>Name</key>
+			<string>New Module Name</string>
+			<key>Identifier</key>
+			<string>moduleName</string>
+			<key>Description</key>
+			<string>The name of the module to create</string>
+		</dict>
+	</array>
+</dict>
+</plist>
